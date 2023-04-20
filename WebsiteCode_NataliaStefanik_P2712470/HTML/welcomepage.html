@@ -1,0 +1,72 @@
+<!-- Basic HTML5, basically what you usually start code with so everything is functional and works correctly -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="welcomepage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<body>
+
+<!-- Introduction Banner, this is pretty much the making of a logo image to EXIST and have its place on the side of my website, with obviously the name of my youtube channel which is Hype_Fantasy! I did alot of reference codes in order to be able to switch from
+page to page without needing to manually switch to what page i needed to view by turning off/ on the live view option. -->
+
+<header>
+      <div id="logo">
+        <img src="logo.png" alt="Logo">
+        <h1>HYPE_FANTASY</h1>
+      </div>
+    </header>
+    <main>
+        <nav>
+            <ul>
+              <li><a href="welcomepage.html">Welcome Page</a></li>
+              <li><a href="videopage.html">Other Videos!</a></li>
+              <li><a href="aboutme.html">About Me</a></li>
+            </ul>
+          </nav>
+    </main>
+
+<!-- Animated Images With Links, Pretty much the code starts with hrefs whicj creates external links to the images im going to attach them to. This allows you to press the image and get taken to the url link I have inputted here.
+I have also created div classes for the boxes to later on individually customise on height, width and the location theyre placed on the website. they are a little fidgety but they work. I ended up letting them slighty overlap on the desktop version of the site,
+like they were folders of content for you to filter through. definitely next time I will try to put in more time to figure out for them to work more pleasingly in phone view and desktop. In phone dimensions it looks much better however. -->
+
+<a href="https://youtu.be/1IUqjPc0D_4" target="_blank">
+    <div id="box1" class="box">
+        <img src="thumbnail_a.jpg" alt="Image 1">
+    </div>
+</a>
+<a href="https://youtu.be/hXsuadOHjc8" target="_blank">
+    <div id="box2" class="box">
+        <img src="thumbnail_b.jpg" alt="Image 2">
+    </div>
+</a>
+<a href="https://youtu.be/R1_Nm8Vsh5M" target="_blank">
+    <div id="box3" class="box">
+        <img src="thumbnail_c.jpg" alt="Image 3">
+    </div>
+</a>
+<a href="https://youtu.be/M2IqGO9zl-Q" target="_blank">
+    <div id="box4" class="box">
+        <img src="thumbnail_d.jpg" alt="Image 4">
+    </div>
+  </a>
+
+<!-- Text Box On Side, this box was created to welcome the page while also filling the empty space. My portfolio of my channel is mainly consisting of videos. The actual videos show my character more than words. So i treated the website
+more of a gallery rather than an article. -->
+
+<div class="boxy">
+  <div class="titles">Welcome to my channel page!</div>
+  <div class="texts">
+    <p>Feel free to explore around the page!</p>      
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+/* Banner Styling */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-image: url(background.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 0.01vw;
+    width: 395vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 6vw 6vw;
+  }
+  
+  #logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo img {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    border: 0.05vw solid transparent;
+  }
+  
+  #logo img:hover {
+    border-color: #ffffffd9;
+  }
+  
+  #logo h1 {
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-left: 2vw;
+  }
+
+
+/* Navigation Styling */
+
+/* Reset default margin and padding */
+* {
+margin: 0;
+padding: 0;
+}
+
+/* Style for the navigation bar */
+nav {
+background-color: #42271a;
+color: #e79b3f;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1vw;
+width: 100vw;
+}
+
+/* Style for the list items */
+ul {
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 95%;
+}
+
+/* Style for the links */
+li a {
+color: #f3f0ec;
+text-decoration: none;
+padding: 0.010vw;
+transition: all 0.5s ease-in-out;
+border-bottom: 2vw solid transparent;
+}
+
+/* Hover style for the links */
+li a:hover {
+border-bottom: 0.05vw solid #d47e27;
+}
+
+/* Body Page Colour */
+
+    /* Reset default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Style for the body */
+    body {
+      background-color: #dbc0a2;
+      font-family: Arial, sans-serif;
+    }
+
+
+/* Animated Images With Links */
+
+.box {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    display: inline-block;
+    width: 45vw;
+    height: 15vw;
+    margin-top: 20%;
+    margin-left: 17%;
+    background-color: rgba(195, 155, 103, 0.495);
+    border-radius: 0%;
+    text-align: center;
+    line-height: 19vw;
+    font-size: 5vw;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.box:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+    background-color: rgba(149, 114, 52, 0.7);
+}
+.box img {
+    max-width: 110%;
+    max-height: 168%;
+    vertical-align: top;
+}
+#box1 {
+    top: 9%;
+    left: 5%;
+}
+#box2 {
+    top: 29%;
+    left: 5%;
+}
+#box3 {
+    top: 49%;
+    left: 5%;
+}
+#box4 {
+    top: 69%;
+    left: 5%;
+}  
+#box5 {
+    top: 9%;
+    left: 53%;
+}
+#box6 {
+    top: 29%;
+    left: 53%;
+}
+#box7 {
+    top: 49%;
+    left: 53%;
+}
+#box8 {
+    top: 69%;
+    left: 53%;
+}

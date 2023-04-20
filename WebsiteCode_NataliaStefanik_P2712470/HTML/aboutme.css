@@ -1,0 +1,119 @@
+/* Banner Styling */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-image: url(background.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 0.01vw;
+    width: 395vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 6vw 6vw;
+  }
+  
+  #logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo img {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    border: 0.05vw solid transparent;
+  }
+  
+  #logo img:hover {
+    border-color: #ffffffd9;
+  }
+  
+  #logo h1 {
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-left: 2vw;
+  }
+
+
+/* Navigation Styling */
+
+/* Reset default margin and padding */
+* {
+margin: 0;
+padding: 0;
+}
+
+/* Style for the navigation bar */
+nav {
+background-color: #42271a;
+color: #e79b3f;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1vw;
+width: 100vw;
+}
+
+/* Style for the list items */
+ul {
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 95%;
+}
+
+/* Style for the links */
+li a {
+color: #f3f0ec;
+text-decoration: none;
+padding: 0.010vw;
+transition: all 0.5s ease-in-out;
+border-bottom: 2vw solid transparent;
+}
+
+/* Hover style for the links */
+li a:hover {
+border-bottom: 0.05vw solid #d47e27;
+}
+
+/* TextBox, have a type of background box within them. With divs and classes connected to edit thei overall looks really. I just really made a third page to see how far I could go before i finished the main code. */
+.container {
+    max-width: 500VW;
+    margin: 0 auto;
+    padding: 4vw;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .text-box {
+    flex-basis: 50%;
+    padding: 1rem;
+  }
+  
+  .image-box {
+    flex-basis: 50%;
+    padding: 1rem;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: 10;
+    margin: 5 auto;
+  }
